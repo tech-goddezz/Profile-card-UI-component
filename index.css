@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card-component {
+    background-color: white;
+    max-width: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(119, 119, 119);
+
+}
+
+img {
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgb(75, 75, 75);
+    
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-top: 4%;
+}
+
+.job-tittle {
+    font-size: 19px;
+    font-weight: 500;
+    color: gray;
+    margin: 2%;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #383838;
+    margin: 4%;
+}
+
+div {
+    display: flex;
+    justify-content: space-evenly; 
+    font-size: 19px;
+    margin-bottom: 2%;
+}
+
+a {
+    color: #0462cc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #56a5ff;
+}
+
+
+
+button {
+    background-color: #177df1;
+    font-size: 18px;
+    padding: 8px 40px;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.3s ease;
+    
+}
+
+button:hover {
+    background-color: #0263d3;
+    font-size: 19px;
+    padding: 9px 42px;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.3s ease;
+}
+
+
+
+
+
+
+
