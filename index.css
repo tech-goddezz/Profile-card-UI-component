@@ -27,7 +27,20 @@ img {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
+    border: 1px solid rgb(100, 100, 100);
     box-shadow: 0 4px 8px rgb(75, 75, 75);
+    transition: 0.3s ease;
+    
+}
+
+img:hover {
+    width: 170px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(100, 100, 100);
+    box-shadow: 0 4px 8px rgb(75, 75, 75);
+    transition: 0.3s ease-in-out;
+
     
 }
 
