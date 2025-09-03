@@ -30,8 +30,9 @@ img {
     border: 1px solid rgb(100, 100, 100);
     box-shadow: 0 4px 8px rgb(75, 75, 75);
     transition: 0.3s ease;
-    
+    cursor: pointer;
 }
+
 
 img:hover {
     width: 170px;
@@ -40,9 +41,29 @@ img:hover {
     border: 1px solid rgb(100, 100, 100);
     box-shadow: 0 4px 8px rgb(75, 75, 75);
     transition: 0.3s ease-in-out;
-
-    
 }
+
+img {
+  animation: float 3s ease-in-out infinite; 
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); 
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
 
 .name {
     font-size: 30px;
@@ -76,6 +97,7 @@ div {
 a {
     color: #0462cc;
     text-decoration: none;
+    cursor: pointer;
 }
 
 a:hover {
@@ -93,7 +115,7 @@ button {
     text-decoration: none;
     border: 1px solid rgb(255, 255, 255);
     transition: 0.3s ease;
-    
+    cursor: pointer;
 }
 
 button:hover {
